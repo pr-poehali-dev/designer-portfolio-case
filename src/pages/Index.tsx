@@ -169,11 +169,11 @@ export default function Index() {
                 />
                 <div className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-0 group-hover:opacity-30 transition-opacity duration-300`}></div>
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
-                  <Icon 
-                    name="ArrowRight" 
-                    size={40} 
-                    className="text-white opacity-0 group-hover:opacity-100 transform translate-x-4 group-hover:translate-x-0 transition-all duration-300"
-                  />
+                  <Button 
+                    className="bg-white text-black hover:bg-white/90 opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300"
+                  >
+                    Посмотреть
+                  </Button>
                 </div>
               </div>
               <Badge className="mb-3 bg-purple-500/20 text-purple-300 border-purple-500/30">
